@@ -10,7 +10,7 @@ const Nav = props => (
 
       <li id="rw">{props.rightwrong}</li>
 
-      <li id="cscor">Current Score: {props.score}</li>
+      <li id="cscor">Current: {props.score}</li>
 
       <li id="tscor">Top Score: {props.topScore}</li>
     </ul>
